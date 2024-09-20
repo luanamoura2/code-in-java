@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class intersecaoFalsa {
+public class Intersecao {
     public static void main(String[] args) {
 
         int vetA[] = new int[10];

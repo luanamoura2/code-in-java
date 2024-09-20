@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class impar {
+public class Impar {
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);

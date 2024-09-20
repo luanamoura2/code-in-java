@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class idade {
+public class Idade {
 
   public static void main(String[] args) {
 

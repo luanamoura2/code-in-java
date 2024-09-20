@@ -1,7 +1,8 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class MatrizTransposta {
+public class Matriztransposta
+ {
 
     public static void main(String[] args) {
 

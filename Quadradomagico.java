@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class quadradoMagico {
+public class Quadradomagico {
 
   public static void main(String[] args) {
 

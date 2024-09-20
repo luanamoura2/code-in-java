@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TomadaDecisaoSequencial {
+public class Decisao{
 
     public static void main(String[] args) {
 

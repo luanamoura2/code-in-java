@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class intercale {
+public class Intercale {
     public static void main(String[] args) {
 
         int vetA[] = new int[10];
