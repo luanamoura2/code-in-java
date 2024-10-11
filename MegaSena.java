@@ -22,6 +22,7 @@ public class MegaSena {
         int[] sorteio;
         int[] palpite;
         int numero;
+        int acertos = 0;
 
         sorteio = new int[6];
         palpite = new int[6];
@@ -38,12 +39,24 @@ public class MegaSena {
             palpite[i] = numero;
         }
 
+        for(int i=0;i<6;i++){
+            if(palpite[i] == sorteio[i]){
+                acertos++;
+            }
+        }
+
+        if (acertos == 6){
+            System.out.println("Acertou:" + acertos);
+        } else {
+            System.out.println("Acertou:" + acertos);
+        }
+
         mostrarVetor(palpite);
 
-        //sortear 6 numeros
-        //pedir para o usuario digitar 6 numeros
-        //comparar os numeros digitados com os numeros sorteados
-        //contar os acertos.
-        //mostrar os acertos
+        //sortear 6 numeros!
+        //pedir para o usuario digitar 6 numeros!
+        //comparar os numeros digitados com os numeros sorteados !
+        //contar os acertos.!
+        //mostrar os acertos!
     }
 }
